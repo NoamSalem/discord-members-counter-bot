@@ -1,8 +1,8 @@
 import { config } from 'dotenv';
 import { Client, GatewayIntentBits, ChannelType, PermissionsBitField } from 'discord.js';
 
-const token = process.env.CLIENT_TOKEN;
 config();
+const token = process.env.CLIENT_TOKEN;
 
 const client = new Client({
     intents: [
